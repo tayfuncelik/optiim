@@ -1,0 +1,174 @@
+{
+	"id": "3535c92a-618e-052c-194d-c23431478f34",
+	"name": "Optiim",
+	"description": "",
+	"order": [
+		"8c5ed68a-56f6-5245-91a8-f81960373969",
+		"1396b126-e1b1-b328-1bf0-16ee5bb77b33",
+		"99aca052-7388-66ea-f35c-a791b59d93b8",
+		"9eeba485-75e0-3a92-f36d-78455f9c5267",
+		"383575e3-67e5-80fb-286a-bd07a1f645ec"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1583058568383,
+	"owner": "597146",
+	"public": false,
+	"requests": [
+		{
+			"id": "1396b126-e1b1-b328-1bf0-16ee5bb77b33",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "localhost:8082/email/sendEmail",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1583063046476,
+			"name": "localhost:8082",
+			"description": "",
+			"collectionId": "3535c92a-618e-052c-194d-c23431478f34",
+			"responses": [],
+			"rawModeData": "{\n\t\"to\":\"tayfuncelikeee@gmail.com\",\n\t\"from\":\"tayfuncelikeee@gmail.com\"\n}"
+		},
+		{
+			"id": "383575e3-67e5-80fb-286a-bd07a1f645ec",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "localhost:8081/users/addUser",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "3535c92a-618e-052c-194d-c23431478f34",
+			"data": [],
+			"dataMode": "raw",
+			"name": "localhost:8081/users/addUser",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1583072270513,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\n\t\"name\":\"tayfun\",\n\t\"lastName\":\"celik\",\n\t\"email\":\"tayfuncelikeee@gmail.com\"\n}"
+		},
+		{
+			"id": "8c5ed68a-56f6-5245-91a8-f81960373969",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "localhost:8081/users/getUser/1",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1583073715549,
+			"name": "localhost:8081",
+			"description": "",
+			"collectionId": "3535c92a-618e-052c-194d-c23431478f34",
+			"responses": [],
+			"rawModeData": "{\n\t\"name\":\"tayfun\",\n\t\"lastName\":\"celik\",\n\t\"email\":\"tayfuncelik@gmail.com\"\n}"
+		},
+		{
+			"id": "99aca052-7388-66ea-f35c-a791b59d93b8",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "localhost:8083/note/addNote",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1583074058120,
+			"name": "localhost:8083/addNote",
+			"description": "",
+			"collectionId": "3535c92a-618e-052c-194d-c23431478f34",
+			"responses": [],
+			"rawModeData": "{\n\t\"note\":\"first note\",\n\t\"userId\":1\n}"
+		},
+		{
+			"id": "9eeba485-75e0-3a92-f36d-78455f9c5267",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "localhost:8083/note/getNote?userId=1",
+			"queryParams": [
+				{
+					"key": "userId",
+					"value": "1",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1583074069073,
+			"name": "localhost:8083/getNote?userId=25",
+			"description": "",
+			"collectionId": "3535c92a-618e-052c-194d-c23431478f34",
+			"responses": [],
+			"rawModeData": ""
+		}
+	]
+}
