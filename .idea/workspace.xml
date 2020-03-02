@@ -1,24 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c0f688d5-ed5f-4316-81c5-393ad5ce1ecd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/getaway/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/getaway/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/getaway/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/getaway/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/getaway/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/getaway/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/getaway/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/getaway/src/main/java/com/example/getaway/GetawayApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/getaway/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/getaway/src/test/java/com/example/getaway/GetawayApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Optiim.postman_collection.json" beforeDir="false" afterPath="$PROJECT_DIR$/Optiim.postman_collection.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-    </list>
+    <list default="true" id="c0f688d5-ed5f-4316-81c5-393ad5ce1ecd" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -32,6 +15,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="TAYFUN ÇELİK &lt;tayfuncelik.info@gmail.com&gt;" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
@@ -231,10 +219,20 @@
       <option name="presentableId" value="Default" />
       <updated>1582926014471</updated>
     </task>
+    <task id="LOCAL-00001" summary="getaway service added">
+      <created>1583181597505</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1583181597505</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="getaway service added" />
+    <option name="LAST_COMMIT_MESSAGE" value="getaway service added" />
   </component>
   <component name="WindowStateProjectService">
     <state x="275" y="24" key="#Notifications" timestamp="1582982730999">
@@ -269,6 +267,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="560" y="72" key="#xdebugger.evaluate/0.0.1366.728@0.0.1366.728" timestamp="1583067284912" />
+    <state x="349" y="0" width="935" height="728" key="CommitChangelistDialog2" timestamp="1583181592443">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="349" y="0" width="935" height="728" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1583181592443" />
     <state width="453" height="466" key="DebuggerActiveHint" timestamp="1583078552853">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
