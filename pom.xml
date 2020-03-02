@@ -15,6 +15,7 @@
         <module>eureka</module>
         <module>email</module>
         <module>user</module>
+        <module>getaway</module>
 
     </modules>
 </project>

@@ -7,7 +7,8 @@
 		"1396b126-e1b1-b328-1bf0-16ee5bb77b33",
 		"99aca052-7388-66ea-f35c-a791b59d93b8",
 		"9eeba485-75e0-3a92-f36d-78455f9c5267",
-		"383575e3-67e5-80fb-286a-bd07a1f645ec"
+		"383575e3-67e5-80fb-286a-bd07a1f645ec",
+		"63612092-aed3-8312-132c-1ceaf3927ba3"
 	],
 	"folders": [],
 	"folders_order": [],
@@ -74,6 +75,37 @@
 			"currentHelper": "normal",
 			"helperAttributes": {},
 			"rawModeData": "{\n\t\"name\":\"tayfun\",\n\t\"lastName\":\"celik\",\n\t\"email\":\"tayfuncelikeee@gmail.com\"\n}"
+		},
+		{
+			"id": "63612092-aed3-8312-132c-1ceaf3927ba3",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/email/sendEmail",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "3535c92a-618e-052c-194d-c23431478f34",
+			"data": [],
+			"dataMode": "raw",
+			"name": "http://localhost:8080/email/sendEmail",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1583180969098,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\n\t\"to\":\"tayfuncelikeee@gmail.com\",\n\t\"from\":\"tayfuncelikeee@gmail.com\"\n}"
 		},
 		{
 			"id": "8c5ed68a-56f6-5245-91a8-f81960373969",
