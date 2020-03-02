@@ -8,5 +8,5 @@ eureka needs to run firstly.Because all microservice will be register to service
 
 
 
-http://localhost:8080/email/sendEmail  over getaway  ,
+http://localhost:8080/email/sendEmail  over getaway  
 http://localhost:8082/email/sendEmail  directly api
